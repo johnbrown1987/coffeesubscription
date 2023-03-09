@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(coffee.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #EEC373;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+hr {
+  border: none;
+  text-align: center;
+  max-width: 50%;
+  color: #CA965C;
+  margin: 20px auto;
+  border-top: 2px solid #CA965C;
+  opacity: 80%;
+}
+
+
+.btn {
+  background-color: rgba(255, 248, 234, 0.9);
+  color: #594545;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  text-transform: lowercase;
+  transition: width .5s, background-color .5s, width .5s, height .5s;
+}
+
+.btn:hover {
+  background-color: rgba(255, 220, 149, 0.8);
+  padding: 1.4rem 2.4rem;
+  transition: .5s ease-in-out;
+}
